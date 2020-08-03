@@ -1,7 +1,7 @@
 import * as firebase from 'firebase';
 
 // TODO: fill in your firebase config
-const firebaseConfig = {
+var firebaseConfig = {
     apiKey: "AIzaSyBA124HKHncysA2XH6PXOZS23UsFmchKQQ",
     authDomain: "remo-76c21.firebaseapp.com",
     databaseURL: "https://remo-76c21.firebaseio.com",
@@ -12,6 +12,6 @@ const firebaseConfig = {
     measurementId: "G-796BMWXP11"
 };
 
-firebase.initializeApp(firebaseConfig);
+const fire = firebase.initializeApp(firebaseConfig);
 
-export default firebase;
+export default fire;
